@@ -113,14 +113,14 @@ section.imagem p {
 
 section#img01 {
     border-radius: 10px;
-    background-image: url(/imgs/produtos.jpg);
+    background-image: url(../imgs/produtos.jpg);
     background-color: right center;
     background-size: cover;
 }
 
 section#img02 {
     border-radius: 10px;
-    background-image: url(/imgs/produtos2.png);
+    background-image: url(../imgs/produtos2.png);
     background-color: right center;
     background-size: cover;
 }

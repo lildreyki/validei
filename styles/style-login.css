@@ -46,7 +46,7 @@ main {
 
 #img {
     display: block;
-    background: #ffbb00 url(/imgs/imagem-logo.jpg) no-repeat;
+    background: #ffbb00 url(../imgs/imagem-logo.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     background-position: center;
