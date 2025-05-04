@@ -115,9 +115,9 @@ form input[type=submit] {
     cursor: pointer;
 }
 
-button, input[type=submit]:hover {
+/*button, input[type=submit]:hover {
     background-color: #2d6361;
-}
+}*/
 
 form a.botao {
     display: block;
@@ -141,4 +141,9 @@ form a.botao:hover {
 
 form a.botao span {
     font-size: .8em;
+}
+
+.botaoo {
+    text-decoration: none;
+    color: #008c91;
 }
