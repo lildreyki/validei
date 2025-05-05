@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALIDEI ✅ Catálogo</title>
+    <link rel="shortcut icon" href="../imgs/imagem-logo.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: auto;
+            width: 100;
+        }
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+
+        thead, .mmm {
+            background-color: gray;
+            color: white;
+        }
+
+        .matt {
+            text-align: left;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: blueviolet
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" rowspan="2">Áreas</th>
+                <th scope="col" rowspan="2">Adicionar <br> ao Carrinho</th>
+                <th scope="col" rowspan="2">Produtos</th>
+                <th scope="colgroup" colspan="2">Preços</th>
+                <th scope="col" rowspan="2">Estoque</th>
+                <th scope="col" rowspan="2">Supermercado</th>
+                <th scope="col" rowspan="2">Localização</th>
+                <th scope="col" rowspan="2">Validade</th>
+            </tr>
+            <tr>
+                <th scope="col">Normal</th>
+                <th scope="col">c/Desconto</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="5">Laticínio</th>
+                <td>
+                    <input onclick="checkEd()" type="checkbox" id="meuCheckbox" name="opcao1" value="aceito">
+                    <label for="meuCheckbox"></label>
+                </td>
+                <td class="matt"><a href="#">Leite UHT Integral (1L)</a></td>
+                <td>R$ 5,90</td>
+                <td>R$ 3,50</td>
+                <td>12 unidades</td>
+                <td>Bom Preço (Pituba)</td>
+                <td>Av. ACM, 1233</td>
+                <td>05/06/2025</td>
+            </tr>
+            <tr>
+                <td>
+                    <input onclick="checkEd()" type="checkbox" id="meuCheckbox" name="opcao1" value="aceito">
+                    <label for="meuCheckbox"></label>
+                </td>
+                <td class="matt"><a href="#">Iogurte Natural (500g)</a></td>
+                <td>R$ 8,90</td>
+                <td>R$ 4,90</td>
+                <td>8 unidades</td>
+                <td>Bom Preço (Pituba)</td>
+                <td>Av. ACM, 1233</td>
+                <td>03/06/2025</td>
+            </tr>
+            <tr>
+                <td>
+                    <input onclick="checkEd()" type="checkbox" id="meuCheckbox" name="opcao1" value="aceito">
+                    <label for="meuCheckbox"></label>
+                </td>
+                <td class="matt"><a href="#">Queijo Minas Fresco (300g)</a></td>
+                <td>R$ 12,90</td>
+                <td>R$ 7,90</td>
+                <td>5 embalagens</td>
+                <td>TodoDia (Pituba)</td>
+                <td>Rua Professor Sabino Silva, 200</td>
+                <td>07/06/2025</td>
+            </tr>
+            <tr>
+                <td>
+                    <input onclick="checkEd()" type="checkbox" id="meuCheckbox" name="opcao1" value="aceito">
+                    <label for="meuCheckbox"></label>
+                </td>
+                <td class="matt"><a href="#">Café em Pó 250g (Marca X)</a></td>
+                <td>R$ 14,90</td>
+                <td>R$ 9,90</td>
+                <td>15 unidades</td>
+                <td>Atacadão Mix (Pituaçu)</td>
+                <td>Av. Orlando Gomes, 1500</td>
+                <td>10/06/2025</td>
+            </tr>
+            <tr>
+                <td>
+                    <input onclick="checkEd()" type="checkbox" id="meuCheckbox" name="opcao1" value="aceito">
+                    <label for="meuCheckbox"></label>
+                </td>
+                <td class="matt"><a href="#">Biscoito Recheado (300g)</a></td>
+                <td>R$ 6,50</td>
+                <td>R$ 3,00</td>
+                <td>20 pacotes</td>
+                <td>Atacadão Mix (Pituaçu)</td>
+                <td>Av. Orlando Gomes, 1500</td>
+                <td>01/06/2025</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="5">Outros</th>
+                <td>
+                    <input onclick="checkEd()" type="checkbox" id="meuCheckbox" name="opcao1" value="aceito">
+                    <label for="meuCheckbox"></label>
+                </td>
+                <td class="matt"><a href="#">Molho de Tomate (340g)</a></td>
+                <td>R$ 4,20</td>
+                <td>R$ 2,00</td>
+                <td>30 latas</td>
+                <td>TodoDia (Pituba)</td>
+                <td>Rua Professor Sabino Silva, 200</td>
+                <td>04/06/2025</td>
+            </tr>
+            <tr>
+                <td>
+                    <input onclick="checkEd()" type="checkbox" id="meuCheckbox" name="opcao1" value="aceito">
+                    <label for="meuCheckbox"></label>
+                </td>
+                <td class="matt"><a href="#">Pão de Forma Integral (500g)</a></td>
+                <td>R$ 9,80</td>
+                <td>R$ 5,50</td>
+                <td>10 unidades</td>
+                <td>TodoDia (Pituba)</td>
+                <td>Rua Professor Sabino Silva, 200</td>
+                <td>02/06/2025</td>
+            </tr>
+            <tr>
+                <td>
+                    <input onclick="checkEd()" type="checkbox" id="meuCheckbox" name="opcao1" value="aceito">
+                    <label for="meuCheckbox"></label>
+                </td>
+                <td class="matt"><a href="#">Suco de Laranja (1L)</a></td>
+                <td>R$ 11,90</td>
+                <td>R$ 6,90</td>
+                <td>7 caixas</td>
+                <td>Bom Preço (Pituba)</td>
+                <td>Av. ACM, 1233</td>
+                <td>05/06/2025</td>
+            </tr>
+            <tr>
+                <td>
+                    <input onclick="checkEd()" type="checkbox" id="meuCheckbox" name="opcao1" value="aceito">
+                    <label for="meuCheckbox"></label>
+                </td>
+                <td class="matt"><a href="#">Chocolate ao Leite (90g)</a></td>
+                <td>R$ 7,50</td>
+                <td>R$ 4,00</td>
+                <td>18 barras</td>
+                <td>Atacadão Mix (Pituaçu)</td>
+                <td>Av. Orlando Gomes, 1500</td>
+                <td>08/06/2025</td>
+            </tr>
+            <tr>
+                <td>
+                    <input onclick="checkEd()" type="checkbox" id="meuCheckbox" name="opcao1" value="aceito">
+                    <label for="meuCheckbox"></label>
+                </td>
+                <td class="matt"><a href="#">Margarina (500g)</a></td>
+                <td>R$ 10,50</td>
+                <td>R$ 6,00</td>
+                <td>14 potes</td>
+                <td>TodoDia (Pituba)</td>
+                <td>Rua Professor Sabino Silva, 200</td>
+                <td>09/06/2025</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        /*function checkEd() {
+            var checkbox = document.getElementById("meuCheckbox");
+            var cont = 0;
+
+            if (checkbox.checked) {
+                cont = cont + 1;
+                console.log("Checkbox marcado. Contagem: " + cont);
+            } else {
+                cont = cont - 1;
+                console.log("Checkbox desmarcado. Contagem: " + cont);
+            }
+    }*/
+    </script>
+</body>
+</html>
